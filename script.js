@@ -27,7 +27,7 @@
 
         const tableBody = document.querySelector("#populationTable tbody");
 
-        data.ForEach(item => {
+        data.forEach(item => {
             const row = document.createElement("tr");
             const year = document.createElement("td");
             year.textContent = item.Year;
